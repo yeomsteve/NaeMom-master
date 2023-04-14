@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style :none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#body{ 
+    min-width: 1190px;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    line-height: 16px; font-size: 12px; color: #202020; 
+}
+.display-none{
+    display: none !important;
+}
+.clearfix::after{
+    clear: both; display: block; content: '';
+}
+
+a:hover, a:visited{
+    text-decoration: none;
+}
+
+/* 메인컨테이너 첫번째 */
+.main-container-first{
+    margin-top: 100px; margin-bottom: 100px; position: relative;
+}
+.first-title{
+	postion: relative; width: 100%;
+}
+.first-title h2{
+	color: #343a40;
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+	line-height: 44px;
+	text-align: left;
+}
+
+.first-contents{
+	position: relative; margin: 10px auto; width: 100%; height: 100%; 
+}
+
+.first-contents .contents-wraper{
+    position: relative;
+}
+
+.first-contents .contents-wraper .swiper-slide{
+    left: 10px;
+    margin-right: 20px; 
+}
+
+.first-contents .contents-wraper .contnets-img{
+    border-radius: 8px;
+    box-shadow: 0 8px 12px 0 rgba(33,37,41,.15);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 250px !important;
+}
+
+.first-contents .contents-wraper .contents-detail{
+    height: 100%;
+    left: 0;
+    padding: 32px 24px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+.first-contents .contents-wraper .title-wraper{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.first-contents .contents-wraper .contents-title{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    line-height: 1.29;
+    text-align: left;
+    text-shadow: 0 1px 8px rgba(33,37,41,.6);
+    vertical-align: middle;
+}
+
+.first-contents .contents-wraper .content{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #fff;
+    display: -webkit-box;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 8px rgba(33,37,41,.6);
+}
+
+.first-contents .contents-wraper .content-btn{
+    border: none;
+    bottom: 15px;
+    box-shadow: 0 0 0 1px rgba(33,37,41,.08);
+    left: 24px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 30px;
+}
+
+.first-contents .contents-wraper .content-btn:visited{
+    color: #495056; 
+}
+
+.first-contents button{
+    position: absolute;
+}
